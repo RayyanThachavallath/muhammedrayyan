@@ -1,0 +1,107 @@
+h5 {
+    font-family: 'Montserrat';
+}
+
+.nav-item>a:hover {
+    color: yellow !important;
+    text-decoration: overline;
+}
+
+.nav-item>a:active {
+    color: yellow !important;
+    text-decoration: overline;
+}
+
+.hi {
+    font-family: 'PT Serif';
+    text-align: left;
+    font-weight: bold;
+    font-size: 3rem;
+    color: #b5ba1e;
+}
+
+.intro-text {
+    font-family: 'Libre Baskerville';
+    font-weight: bolder;
+    font-size: 4rem;
+    color: #c4c922;
+}
+
+hr {
+    margin-left: auto;
+}
+
+.sub-text {
+    font-family: 'PT Serif';
+    font-size: 2rem;
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Row styles */
+.row {
+    flex-basis: 48%;
+    /* Adjust as needed */
+    margin-bottom: 10px;
+    /* Add space between rows */
+}
+
+/* Media query for mobile devices */
+
+.mail-icon {
+    font-size: 1.25rem;
+}
+
+.icon-image {
+    height: 10px;
+    width: 10px;
+}
+
+.heading1 {
+    font-family: 'Libre Baskerville';
+    font-weight: bolder;
+    font-size: 3rem;
+    color: yellow;
+    text-decoration: underline;
+}
+
+.icon {
+    font-size: 3rem;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+
+
+.card{
+    margin-bottom: 1rem;
+    border-radius: 10%;
+}
+.form{
+    width: 80%;
+    margin: 0 auto;
+}
+.btn{
+    width: 100%;
+    margin: 0 auto;
+}
+#row-footer{
+    margin-bottom: 0px;
+}
+.footer{
+    height: 7rem;
+}
+.footer-icon{
+    font-size: 2rem;
+}
+.row-icons{
+    margin: 0 auto;
+}
